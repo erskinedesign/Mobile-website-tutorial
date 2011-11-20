@@ -1,0 +1,300 @@
+/*
+
+    [DESKTOP - KNOW YOUR VIRAL ENEMIES!]
+    
+    @version: 1.0
+    @author: Garrett Winder
+    
+    CONTENTS ----------
+    
+        1. BODY
+        2. DEFAULT STYLING
+        3. HEADLINES
+        4. LINKS
+        5. LAYOUT
+            5.1. HEADER & BRANDING
+            5.2. FOOTER
+        6. NAVIGATION
+            6.1. PRIMARY NAVIGATION
+        7. GLOBAL ELEMENTS
+            7.1. INTRO
+            7.2. MEDIA LISTING
+    
+    -------------------
+    
+*/
+
+
+
+@import url(reset.css);
+
+
+
+/* @group 1. BODY -------------------- */
+
+body {
+    background-color:#C4DFEC;
+    color:#000;
+    font:400 112.5%/1.55 Georgia, serif; /* Base: 18px */
+}
+
+/* @end */
+
+
+
+/* @group 2. DEFAULT STYLING -------------------- */
+
+p, ul, dl, ol {
+    margin-bottom:1em;
+}
+
+ul {
+    list-style:square;
+}
+ul li {
+    margin-left:1em;
+}
+
+dl {
+    
+}
+dl dt {
+    font-weight:700;
+}
+dl dd {
+    
+}
+
+ol {
+    list-style:decimal;
+}
+ol li {
+    margin:0 2em;
+}
+
+abbr {
+    
+}
+abbr:hover {
+    cursor:help;
+}
+
+ins {
+    text-decoration:underline;
+}
+del {
+    text-decoration:line-through;
+}
+
+strong {
+    font-weight:bold;
+}
+em {
+    font-style:italic;
+}
+
+sup {
+    vertical-align:super;
+}
+sub {
+    vertical-align:sub;
+}
+
+figure {
+    background-color:#F8F8F8;
+}
+figure img {
+    margin:0 auto;
+    padding:15px 0;
+}
+figcaption {
+    background-color:#FFF;
+    display:block;
+    font-size:0.888888889em; /* 16 / 18 */
+    padding:8px 0;
+    text-align:center;
+}
+
+/* @end */
+
+
+
+/* @group 3. HEADLINES -------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:Helvetica, Arial, sans-serif;
+    font-weight:700;
+    line-height:1.2;
+}
+
+h1 {
+    font-size:2.333333333em; /* 42 / 18 */
+}
+h2 {
+    
+}
+h3 {
+    
+}
+h4 {
+    
+}
+h5 {
+    
+}
+h6 {
+    
+}
+
+/* @end */
+
+
+
+/* @group 4. LINKS -------------------- */
+
+a {
+    color:#000;
+}
+a:hover,
+a:focus {
+    color:#FF6633;
+    outline:0;
+}
+
+/* @end */
+
+
+
+/* @group 5. LAYOUT -------------------- */
+
+div#page {
+    background-color:#FFF;
+    border-top:10px solid #FF6633;
+    margin:0 auto;
+    padding:0 38px;
+    width:892px;
+}
+
+    /* @group 5.1. HEADER & BRANDING -------------------- */
+    
+    [role="banner"] {
+        padding:34px 0 48px;
+        text-align:center;
+    }
+    
+    /* @end */
+    
+    /* @group 5.2. FOOTER -------------------- */
+    
+    [role="contentinfo"] {
+        border-top:1px solid #76B4BB;
+        clear:both;
+        font:0.777777778em Helvetica, Arial, sans-serif; /* 14 / 18 */
+        padding:24px 0;
+        text-align:center;
+    }
+    
+    /* @end */
+
+
+
+/* @end */
+
+
+
+/* @group 6. NAVIGATION -------------------- */
+
+
+
+    /* @group 6.1. PRIMARY NAVIGATION -------------------- */
+    
+    [role="navigation"] {
+        float:left;
+        font-style:italic;
+        width:47.9820628%; /* 428 / 892 */
+    }
+    
+    [role="navigation"] ul {
+        list-style:none;
+    }
+    
+    [role="navigation"] li {
+        border-bottom:1px solid #76B4BB;
+        color:#FF6633;
+        font-size:1.222222222em; /* 22 / 18 */
+        margin-left:0;
+    }
+    
+    [role="navigation"] a {
+        display:inline-block;
+        font-size:0.818181818em; /* 18 / 22 */
+        padding:10px 0 10px 4px;
+        text-decoration:none;
+    }
+    [role="navigation"] li:first-child a {
+        padding-top:0;
+    }
+    
+    /* @end */
+
+
+
+/* @end */
+
+
+
+/* @group 7. GLOBAL ELEMENTS -------------------- */
+
+
+
+    /* @group 7.1. INTRO -------------------- */
+    
+    .intro {
+        float:right;
+        padding:0 0 34px;
+        width:47.9820628%; /* 428 / 892 */
+    }
+    
+    /* @end */
+    
+    /* @group 7.2. MEDIA LISTING -------------------- */
+    
+    .media_listing {
+        clear:both;
+        list-style:none;
+    }
+    
+    .media_listing li {
+        float:left;
+        margin:0 4.0358744% 5.6053812% 0; /* 36 / 892, 50 / 892 */
+        width:21.9730942%; /* 196 / 892 */
+    }
+    .media_listing li:nth-child(4n) {
+        margin-right:0;
+    }
+    
+    .media_listing a {
+        text-decoration:none;
+    }
+    
+    .media_listing figure {
+        border:1px dashed #75B4BB;
+    }
+    .media_listing figcaption {
+        border-top:1px dashed #75B4BB;
+    }
+    
+    .media_listing a:hover figure,
+    .media_listing a:focus figure,
+    .media_listing a:hover figcaption,
+    .media_listing a:focus figcaption {
+        border-style:solid;
+    }
+    
+    /* @end */
+
+
+
+/* @end */
+
+
