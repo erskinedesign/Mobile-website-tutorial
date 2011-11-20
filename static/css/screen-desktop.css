@@ -18,7 +18,8 @@
             6.1. PRIMARY NAVIGATION
         7. GLOBAL ELEMENTS
             7.1. INTRO
-            7.2. MEDIA LISTING
+            7.2. NOTIFICATION
+            7.3. MEDIA LISTING
     
     -------------------
     
@@ -257,7 +258,34 @@ div#page {
     
     /* @end */
     
-    /* @group 7.2. MEDIA LISTING -------------------- */
+    /* @group 7.3. MEDIA LISTING -------------------- */
+    
+    .notification {
+        background-color:#FF6633;
+        color:#FFF;
+        font:bold 3.222222222em/1 Helvetica, Arial, sans-serif; /* 58 / 18 */ 
+        margin:0 auto;
+        text-align:center;
+    }
+    
+    .notification p {
+        margin-bottom:0;
+    }
+    
+    .notification a {
+        color:#FFF;
+        padding:14px 0;
+        text-decoration:none;
+    }
+    .notification a:hover,
+    .notification a:focus {
+        background-color:#FFF;
+        color:#FF6633;
+    }
+    
+    /* @end */
+    
+    /* @group 7.3. MEDIA LISTING -------------------- */
     
     .media_listing {
         clear:both;
